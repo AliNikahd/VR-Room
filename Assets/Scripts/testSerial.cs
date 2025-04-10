@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.IO.Ports;
 
-public class TestSerial : MonoBehaviour
+public class testSerial : MonoBehaviour
 {
     [Header("Serial Port Settings")]
     public string entryPort = "COM9";
