@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 2324103}
   - component: {fileID: 2324105}
   - component: {fileID: 2324104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,15 +288,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonBase
       objectReference: {fileID: 0}
+    - target: {fileID: -3126352785863391512, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: Button - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: ButtonTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3974355289236775580, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
@@ -693,7 +708,7 @@ GameObject:
   - component: {fileID: 63791651}
   - component: {fileID: 63791653}
   - component: {fileID: 63791652}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,15 +909,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonBase
       objectReference: {fileID: 0}
+    - target: {fileID: -3126352785863391512, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: Button - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: ButtonTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3974355289236775580, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
@@ -947,7 +977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125640873}
   - component: {fileID: 125640874}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SuterConsole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1077,6 +1107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialTop
       objectReference: {fileID: 0}
+    - target: {fileID: -6782623364968648544, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -5199425506954775603, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1087,10 +1122,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dial - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Name
       value: DialBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1242,7 +1287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213897072}
   - component: {fileID: 213897073}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dial2 - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1283,7 +1328,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -1400,7 +1445,7 @@ GameObject:
   - component: {fileID: 239764532}
   - component: {fileID: 239764531}
   - component: {fileID: 239764530}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1488,7 +1533,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -1639,6 +1684,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 168219462}
     m_Modifications:
+    - target: {fileID: 74269883, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 264718725, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 344871544, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 649719642, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117594684, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1144788572, guid: 1b6d9920203cf204ca025db14635a195, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 133241718858321315, guid: 1b6d9920203cf204ca025db14635a195,
         type: 3}
       propertyPath: m_Enabled
@@ -1684,10 +1753,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.639
       objectReference: {fileID: 0}
+    - target: {fileID: 1934756542582598774, guid: 1b6d9920203cf204ca025db14635a195,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3701202431252008202, guid: 1b6d9920203cf204ca025db14635a195,
         type: 3}
       propertyPath: m_Name
       value: Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3701202431252008202, guid: 1b6d9920203cf204ca025db14635a195,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9008461865543561412, guid: 1b6d9920203cf204ca025db14635a195,
         type: 3}
@@ -1791,7 +1870,7 @@ GameObject:
   - component: {fileID: 342099476}
   - component: {fileID: 342099478}
   - component: {fileID: 342099477}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +1951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344184130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToArchery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2162,7 +2241,7 @@ GameObject:
   - component: {fileID: 438906659}
   - component: {fileID: 438906658}
   - component: {fileID: 438906657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2329,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -2476,6 +2555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialTop
       objectReference: {fileID: 0}
+    - target: {fileID: -6782623364968648544, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -5199425506954775603, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2486,10 +2570,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dial - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Name
       value: DialBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2742,7 +2836,7 @@ GameObject:
   - component: {fileID: 473741170}
   - component: {fileID: 473741169}
   - component: {fileID: 473741168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ConsoleCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2900,7 +2994,7 @@ GameObject:
   - component: {fileID: 523444933}
   - component: {fileID: 523444935}
   - component: {fileID: 523444934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3017,7 +3111,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -3191,7 +3285,7 @@ GameObject:
   - component: {fileID: 655006454}
   - component: {fileID: 655006453}
   - component: {fileID: 655006456}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: String
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3232,7 +3326,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -3633,10 +3727,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 168219462}
     m_Modifications:
+    - target: {fileID: 1105531348239489159, guid: 54ba44d4ecd83324991be29cf49b127d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1769337597633466025, guid: 54ba44d4ecd83324991be29cf49b127d,
         type: 3}
       propertyPath: m_Name
       value: Arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769337597633466025, guid: 54ba44d4ecd83324991be29cf49b127d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1769337597633466026, guid: 54ba44d4ecd83324991be29cf49b127d,
         type: 3}
@@ -3697,6 +3801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769337598482281027, guid: 54ba44d4ecd83324991be29cf49b127d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4014021001811742183, guid: 54ba44d4ecd83324991be29cf49b127d,
         type: 3}
@@ -3927,7 +4036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 670388617}
   - component: {fileID: 670388618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Button3 - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3968,7 +4077,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -4173,7 +4282,7 @@ GameObject:
   - component: {fileID: 682423166}
   - component: {fileID: 682423168}
   - component: {fileID: 682423167}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4255,7 +4364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719963313}
   - component: {fileID: 719963314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Button2 - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4296,7 +4405,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -4483,6 +4592,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialTop
       objectReference: {fileID: 0}
+    - target: {fileID: -6782623364968648544, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: -5199425506954775603, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4493,10 +4607,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dial - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
         type: 3}
       propertyPath: m_Name
       value: DialBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3437524769726972734, guid: 2aece178427c30b4fa96b1ce1ad620c9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4531,7 +4655,7 @@ GameObject:
   - component: {fileID: 790435425}
   - component: {fileID: 790435424}
   - component: {fileID: 790435423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4619,7 +4743,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -5051,7 +5175,7 @@ GameObject:
   - component: {fileID: 923944139}
   - component: {fileID: 923944141}
   - component: {fileID: 923944140}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5134,7 +5258,7 @@ GameObject:
   - component: {fileID: 930551307}
   - component: {fileID: 930551309}
   - component: {fileID: 930551308}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5217,7 +5341,7 @@ GameObject:
   - component: {fileID: 945472142}
   - component: {fileID: 945472144}
   - component: {fileID: 945472143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5358,7 +5482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048175237}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToMagnetRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5414,7 +5538,7 @@ GameObject:
   - component: {fileID: 1083725881}
   - component: {fileID: 1083725883}
   - component: {fileID: 1083725882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5615,7 +5739,7 @@ GameObject:
   - component: {fileID: 1190860869}
   - component: {fileID: 1190860871}
   - component: {fileID: 1190860870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5697,7 +5821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213114322}
   - component: {fileID: 1213114323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Button - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5738,7 +5862,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -5975,6 +6099,105 @@ Transform:
   m_Children: []
   m_Father: {fileID: 168219462}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1245926925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245926926}
+  - component: {fileID: 1245926927}
+  m_Layer: 6
+  m_Name: RightPokeOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1245926926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245926925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1984457742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1245926927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245926925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0924bcaa9eb50df458a783ae0e2b59f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 115542528}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 2
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PokeDepth: 0.1
+  m_PokeWidth: 0.0075
+  m_PokeSelectWidth: 0.015
+  m_PokeHoverRadius: 0.015
+  m_PokeInteractionOffset: 0.005
+  m_PhysicsLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_PhysicsTriggerInteraction: 1
+  m_RequirePokeFilter: 1
+  m_EnableUIInteraction: 1
+  m_DebugVisualizationsEnabled: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1255316705
 GameObject:
   m_ObjectHideFlags: 0
@@ -5986,7 +6209,7 @@ GameObject:
   - component: {fileID: 1255316706}
   - component: {fileID: 1255316708}
   - component: {fileID: 1255316707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6067,7 +6290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1285093127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToMagnetRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6267,7 +6490,7 @@ GameObject:
   - component: {fileID: 1354781675}
   - component: {fileID: 1354781674}
   - component: {fileID: 1354781673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6355,7 +6578,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -6598,7 +6821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1447350615}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToArchery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6706,15 +6929,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonBase
       objectReference: {fileID: 0}
+    - target: {fileID: -3126352785863391512, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: Button - Physical
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
       propertyPath: m_Name
       value: ButtonTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367268712692020344, guid: f19bc936caf919446bfd40a5c877e5ba,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3974355289236775580, guid: f19bc936caf919446bfd40a5c877e5ba,
         type: 3}
@@ -6807,7 +7045,7 @@ Transform:
   m_GameObject: {fileID: 1499787334}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.14}
+  m_LocalPosition: {x: 0, y: 0, z: 0.072}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6831,7 +7069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1562192951}
   - component: {fileID: 1562192952}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dial3 - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6872,7 +7110,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -6975,6 +7213,105 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &1564189928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564189929}
+  - component: {fileID: 1564189930}
+  m_Layer: 6
+  m_Name: LeftPokeOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1564189929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564189928}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2134742458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1564189930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564189928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0924bcaa9eb50df458a783ae0e2b59f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 115542528}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 2
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PokeDepth: 0.1
+  m_PokeWidth: 0.0075
+  m_PokeSelectWidth: 0.015
+  m_PokeHoverRadius: 0.015
+  m_PokeInteractionOffset: 0.005
+  m_PhysicsLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_PhysicsTriggerInteraction: 1
+  m_RequirePokeFilter: 1
+  m_EnableUIInteraction: 1
+  m_DebugVisualizationsEnabled: 0
+  m_UIHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UIHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1568129578
 GameObject:
   m_ObjectHideFlags: 0
@@ -6984,7 +7321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1568129579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7023,7 +7360,7 @@ GameObject:
   - component: {fileID: 1633124741}
   - component: {fileID: 1633124740}
   - component: {fileID: 1633124739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7111,7 +7448,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -7299,7 +7636,7 @@ GameObject:
   - component: {fileID: 1696556712}
   - component: {fileID: 1696556711}
   - component: {fileID: 1696556710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7387,7 +7724,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 2147483648
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -7805,7 +8142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868280538}
   - component: {fileID: 1868280539}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dial - Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7846,7 +8183,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -7966,7 +8303,7 @@ GameObject:
   - component: {fileID: 1914427927}
   - component: {fileID: 1914427929}
   - component: {fileID: 1914427928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8104,7 +8441,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8144,7 +8481,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1245926926}
   m_Father: {fileID: 833019112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &1984457743
@@ -8430,7 +8768,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 2147483648
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -8518,7 +8856,7 @@ MonoBehaviour:
   m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
@@ -8916,7 +9254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1992776913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButtonToSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9248,7 +9586,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1564189929}
   m_Father: {fileID: 833019112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &2134742459
@@ -9534,7 +9873,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 2147483648
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_DisableVisualsWhenBlockedInGroup: 1
@@ -9622,7 +9961,7 @@ MonoBehaviour:
   m_LiveConeCastDebugVisuals: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
