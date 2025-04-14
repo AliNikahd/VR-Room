@@ -46,7 +46,7 @@ public class Arrow : MonoBehaviour
         _lastPosition = tip.position;
 
         _particleSystem.Play();
-        _trailRenderer.emitting = true;
+        //_trailRenderer.emitting = true;
     }
 
     private IEnumerator RotateWithVelocity()
@@ -92,7 +92,7 @@ public class Arrow : MonoBehaviour
         SetPhysics(false);
 
         _particleSystem.Stop();
-        _trailRenderer.emitting = false;
+        //_trailRenderer.emitting = false;
     }
 
     private void SetPhysics(bool usePhysics)
